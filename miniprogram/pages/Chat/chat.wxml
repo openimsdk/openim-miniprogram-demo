@@ -1,0 +1,23 @@
+<view class="container">
+  <!-- 左边的用户 -->
+  <view class="message-wrapper">
+    <image src="/images/avatar2.png" class="message-avatar"></image>
+    <view class="message-content-wrapper">
+      <view class="message-content-nickname">111</view>
+      <view class="message-content-text">111</view>
+    </view>
+  </view>
+  <!-- 右边的用户 -->
+  <view class="message-wrapper-reverse">
+    <image src="/images/avatar2.png" class="message-avatar-reverse"></image>
+    <view class="message-content-wrapper">
+      <view class="message-content-nickname">111</view>
+      <view class="message-content-text">111</view>
+    </view>
+  </view>
+
+  <view class="input-container">
+    <input class="input" bindinput="inputChange" value="{{inputValue}}" placeholder="请输入消息"></input>
+    <button class="send-button" bindtap="sendMessage">发送</button>
+  </view>
+</view>

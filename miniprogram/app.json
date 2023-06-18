@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/Index/index",
+    "pages/Single/single",
+    "pages/Chat/chat",
+    "pages/Mine/mine",
+    "pages/Concat/concat"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "OpenIM",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/Index/index",
+        "iconPath": "",
+        "text": "OpenIM"
+      },
+      {
+        "pagePath": "pages/Concat/concat",
+        "iconPath": "",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/Mine/mine",
+        "iconPath": "",
+        "text": "我"
+      }
+    ]
+  }
+
+}
