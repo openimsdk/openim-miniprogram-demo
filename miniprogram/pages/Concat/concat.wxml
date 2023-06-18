@@ -1,0 +1,12 @@
+<!--pages/Concat/concat.wxml-->
+<view class="contact-list">
+  <view wx:for="{{contacts}}" wx:key="{{index}}">
+    <view class="contact-item">
+      <image class="avatar" src="{{item.avatar}}"></image>
+      <view class="info">
+        <text class="name">{{item.name}}</text>
+        <text class="phone">{{item.phone}}</text>
+      </view>
+    </view>
+  </view>
+</view>

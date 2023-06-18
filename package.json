@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "open-im-sdk": "^2.3.0-beta.2"
+  },
+  "name": "mini",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
