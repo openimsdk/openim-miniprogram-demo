@@ -3,27 +3,22 @@
     <image src="../images/search.png" class="search-icon"></image>
     <input placeholder="搜索" class="search-input"></input>
   </view> -->
-<view class="container-message">
- <view class="message-wrapper">
-    <image src="/images/avatar2.png" class="message-avatar"></image>
-    <view class="message-content-wrapper">
-      <view class="message-content-title">111</view>
-      <view class="message-content-info">111</view>
+  <view class="container-message">
+    <view class="message-wrapper">
+      <image src="/images/avatar2.png" class="message-avatar"></image>
+      <view class="message-content-wrapper">
+        <view class="message-content-title">OpenIM小组</view>
+        <view class="message-content-info">@所有人，开会了啦</view>
+      </view>
+    </view>
+    <view class="container-message-time">
+      <view class="container-message-time-now-time">09:00</view>
+      <view class="container-message-noify">
+        <image src="/images/avatar2.png" class="container-message-notify-icon"></image>
+      </view>
+    </view>
   </view>
-  </view>
-  <view class="container-message-time">
-  <view class="container-message-time-now-time">09:00</view>
-  <view><icon>1</icon></view>
-  </view>
-</view>
-<page-meta>
-<navigation-bar
-    title="{{nbTitle}}"
-    loading="{{nbLoading}}"
-    front-color="{{nbFrontColor}}"
-    background-color="{{nbBackgroundColor}}"
-    color-animation-duration="2000"
-    color-animation-timing-func="easeIn"
-  />
-</page-meta>
+  <page-meta>
+    <navigation-bar title="{{nbTitle}}" loading="{{nbLoading}}" front-color="{{nbFrontColor}}" background-color="{{nbBackgroundColor}}" color-animation-duration="2000" color-animation-timing-func="easeIn" />
+  </page-meta>
 </view>

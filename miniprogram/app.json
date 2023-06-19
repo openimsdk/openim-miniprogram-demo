@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/Index/index",
-    "pages/Single/single",
-    "pages/Chat/chat",
     "pages/Mine/mine",
-    "pages/Concat/concat"
+    "pages/UserProfile/userprofile",
+    "pages/Concat/concat",
+    "pages/Index/index",
+    "pages/SingleConcat/singleConcat",
+    "pages/Chat/chat"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -23,12 +24,12 @@
       },
       {
         "pagePath": "pages/Concat/concat",
-        "iconPath": "",
+        "iconPath": "/images/concat.png",
         "text": "通讯录"
       },
       {
         "pagePath": "pages/Mine/mine",
-        "iconPath": "",
+        "iconPath": "/images/mine.png",
         "text": "我"
       }
     ]

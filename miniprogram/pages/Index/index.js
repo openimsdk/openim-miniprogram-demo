@@ -20,7 +20,7 @@ Page({
   },
   onLoad() {
     this.setData({
-      nbTitle: '新标题',
+      nbTitle: 'OpenIM',
       nbLoading: true,
       nbFrontColor: '#ffffff',
       nbBackgroundColor: '#000000',
