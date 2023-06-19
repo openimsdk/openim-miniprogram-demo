@@ -1,9 +1,68 @@
-/* pages/Concat/concat.wxss */.contact-list {
+/* pages/Concat/concat.wxss */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  top:80px;
+  margin-right: 10px;
+  position: fixed;
+}
+
+.letter {
+  height: 10px;
+  text-align: center;
+}
+
+.letter-text {
+  font-size: 20rpx;
+  color: #888;
+}
+
+
+.contact-list {
   padding: 20rpx;
 }
 
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #f1f1f1;
+}
+
+.search-input {
+  flex: 1;
+  height: 60rpx;
+  padding-left: 10px;
+  border: 1rpx solid #ccc;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10rpx 20rpx;
+  background-color: #007AFF;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60rpx;
+  flex: 0.1;
+}
+
+.search-result {
+  padding: 20rpx;
+}
+
+.search-result text {
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+
 .contact-item {
   display: flex;
+  border: 1px solid #ccc;
   align-items: center;
   margin-bottom: 20rpx;
 }

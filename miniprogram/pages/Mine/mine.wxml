@@ -1,2 +1,33 @@
-<!--pages/Mine/mine.wxml-->
-<text>pages/Mine/mine.wxml</text>
+<view class="mine-container">
+  <!-- 展示部分 -->
+  <view class="userBasicList">
+    <image class="user-avatar" src="/images/avatar2.png"></image>
+    <view class="userBasicList-infoList">
+      <view class="userBasicList-infoList-wrapper">
+        <view class="userBasicList-username">啊娟</view>
+      </view>
+      <view class="userBasicList-infoList-wrapper-openId">OpenIM:123456322</view>
+    </view>
+  </view>
+
+  <!-- 操作部分 -->
+  <view class="ConsequenceList-wrapper">
+    <view class="ConsequenceList-wrapper-List">
+      <view class="ConsequenceList-text">账号设置</view>
+      <image class="ConsequenceList-icon" src="/images/avatar2.png"></image>
+    </view>
+    <view class="ConsequenceList-wrapper-List">
+      <view class="ConsequenceList-text">系统设置</view>
+      <image class="ConsequenceList-icon" src="/images/avatar2.png"></image>
+    </view>
+    <view class="ConsequenceList-wrapper-List">
+      <view class="ConsequenceList-text">告诉我们</view>
+      <image class="ConsequenceList-icon" src="/images/avatar2.png"></image>
+    </view>
+    <view class="ConsequenceList-wrapper-List">
+      <view class="ConsequenceList-text">退出登录</view>
+      <image class="ConsequenceList-icon" src="/images/avatar2.png"></image>
+    </view>
+  </view>
+
+</view>
