@@ -3,7 +3,7 @@
     <image src="../images/search.png" class="search-icon"></image>
     <input placeholder="搜索" class="search-input"></input>
   </view> -->
-  <view class="container-message">
+  <view class="container-message" bindtap="imLogin">
     <view class="message-wrapper">
       <image src="/images/avatar2.png" class="message-avatar"></image>
       <view class="message-content-wrapper">
