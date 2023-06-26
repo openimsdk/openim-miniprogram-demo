@@ -31,8 +31,13 @@
     "enableEngineNative": false,
     "useIsolateContext": true,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ],
     "minifyWXSS": true,
     "disableUseStrict": false,
     "showES6CompileOption": false,
@@ -40,7 +45,7 @@
     "minifyWXML": true,
     "condition": false
   },
-  "appid": "wxbf53b1cd8a2978bf",
+  "appid": "touristappid",
   "projectname": "quickstart-wx-cloud",
   "libVersion": "2.14.1",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",

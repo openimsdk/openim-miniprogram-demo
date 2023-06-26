@@ -24,12 +24,12 @@
       },
       {
         "pagePath": "pages/Concat/concat",
-        "iconPath": "/images/concat.png",
+        "iconPath": "",
         "text": "通讯录"
       },
       {
         "pagePath": "pages/Mine/mine",
-        "iconPath": "/images/mine.png",
+        "iconPath": "",
         "text": "我"
       }
     ]
