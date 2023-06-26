@@ -1,0 +1,42 @@
+<view class="chat-record-container">
+  <!-- 顶部导航栏 -->
+  <view class="navigator-bar">
+  <view class="aq"><image src="/pages/navigatorpng/basic-arrow.png" class="navigtor-bar-png" /></view>
+    <view class="title">讨论小组(23)</view>
+    <view class="aq">
+      <image src="/pages/navigatorpng/phone.png" class="navigtor-bar-png" />
+      <image src="/pages/navigatorpng/more.png" class="navigtor-bar-png" />
+    </view>
+
+  </view>
+
+  <!-- 群聊创建时间 -->
+  <view class="chat-wrapper">
+    <view class="chat-createtime">
+      <text class="chat-createtime-1">8月16日 16:09</text>
+    </view>
+    <!-- 聊天创建人信息 -->
+    <view class="chat-createinfo">guang创建了这个群聊</view>
+  </view>
+
+  <!-- 聊天信息盒子 -->
+  <view class="chat-record-wrapper">
+    <!-- 左侧信息展示框 -->
+    <view class="chat-record-wrapper-container">
+      <view class="chat-record-time">guang 昨天 16 ：09</view>
+      <view class="chat-record-info">托比信息服务有限公司</view>
+      <view class="chat-record-message">全部已读</view>
+    </view>
+    <!-- 头像展示框 -->
+    <view class="chat-record-useravatar-container">
+      <image src="/pages/png/xyy.png" class="chat-record-useravatar" />
+    </view>
+  </view>
+  <!-- 底部导航菜单 -->
+  <view class="type-message-container">
+    <image src="/pages/navigatorpng/voice.png" class="tool-bar-png" />
+    <input placeholder="请输入..." class="input-container"/>
+    <image src="/pages/navigatorpng/smile.png" class="tool-bar-png" />
+    <image src="/pages/navigatorpng/add.png" class="tool-bar-png" />
+  </view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "name": "miniprogram-ts-less-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "open-im-sdk": "^2.3.0-beta.2"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "3.10.0"
+  }
+}

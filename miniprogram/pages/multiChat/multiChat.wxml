@@ -1,0 +1,60 @@
+<view class="chat-container">
+  <view class="chat-container-wrapper">
+    <image class="chat-container-top-icon" src="/pages/multiChat/png/basic-arrow.png"></image>
+    <view class="chat-container-top-title">{{talkBasicInfo.groupName}}({{talkBasicInfo.groupNumber}})</view>
+    <view class="chat-container-top-rgt">
+      <image class="chat-container-top-icon" src="/pages/multiChat/png/phone.png"></image>
+      <image class="chat-container-top-icon" src="/pages/multiChat/png/more.png"></image>
+    </view>
+  </view>
+  <!-- body 部分 -->
+  <view class="chat-container-body-wrapper">
+    <view class="chat-message-time">{{talkBasicInfo.createNowDateTime}}</view>
+    <view class="chat-message-title">{{talkBasicInfo.createGroupUsrNickName}}+创建了这个群聊</view>
+  </view>
+
+      <!-- 当前用户 -->
+      <view class="chat-message-container">
+        <view class="chat-message-container-wrapper">
+          <view class="chat-time">
+            <view class="chat-time-usr">{{currentUsrNickName}}</view>
+            <view class="chat-time-usr">{{currentSendMsgTime}}</view>
+          </view>
+          <view class="message-box">{{item.sender}}</view>
+          <view class="message-verbose" wx:if="{{messageReadFlag}}">消息未读</view>
+          <!-- 当 messageReadFlag 为 false 时显示未读 -->
+          <view class="message-verbose" wx:else>消息已读</view>
+        </view>
+        <image src="/pages/png/xyy.png" class="chat-message-user-avatar"></image>
+    </view>
+    
+      <!--非自用户 -->
+      <view class="chat-message-container-wrapper-reverse">
+        <image src="/pages/png/xyy.png" class="chat-message-user-avatar"></image>
+        <view class="chat-reverse">
+          <view class="chat-time">
+            <view class="chat-time-usr-reverse">{{currentUsrNickName}}</view>
+            <view class="chat-time-usr">{{currentSendMsgTime}}</view>
+          </view>
+          <view class="message-box">{{messages}}</view>
+          <view class="message-verbose" wx:if="{{messageReadFlag}}">消息未读</view>
+          <!-- 当 messageReadFlag 为 false 时显示未读 -->
+          <view class="message-verbose" wx:else>消息已读</view>
+        </view>
+      </view>
+  
+
+  <button bindtap="imLogin">122</button>
+  <!-- 底部tab-bar -->
+  <view class="tab-bar">
+    <view class="tab-bar-rgt">
+      <image class="tab-bar-avatar" src="/pages/multiChat/png/voice.png"></image>
+    </view>
+    <input class="input-box" placeholder="请输入消息" bindinput="handleInput" value="{{inputValue}}" bindtap="sendMessage"></input>
+    <view class="tab-bar-rgt">
+      <image class="tab-bar-avatar-ico" src="/pages/multiChat/png/smile.png"></image>
+      <image class="tab-bar-avatar-ico" src="/pages/multiChat/png/add.png"></image>
+    </view>
+
+  </view>
+</view>
