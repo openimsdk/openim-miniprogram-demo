@@ -1,9 +1,11 @@
-// app.js
+import { OpenIMSDK } from 'open-im-sdk'
 App({
-  onLaunch() {
-
-  },
   globalData: {
-
+    openIM: new OpenIMSDK()
+  },
+  async onLaunch() {
+    wx.reLaunch({
+      url: '/pages/login',
+    })
   }
 })

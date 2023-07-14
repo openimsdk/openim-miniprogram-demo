@@ -1,0 +1,14 @@
+<view class="container">
+  <view style="font-size: 40rpx;text-align: center;">OpenIM 微信小程序 Demo</view>
+  <t-input label="手机号" placeholder="输入手机号"></t-input>
+  <t-input label="密码" placeholder="输入密码"></t-input>
+  <t-link style="margin-left:30rpx" theme="primary" content="用短信验证码登录" hover />
+  <view class="flex col">
+    <t-button theme="primary">登录</t-button>
+    <view class="flex" style="justify-content: center;margin-top: 5rpx;">
+      <t-link theme="primary" content="忘记密码" hover />
+      <view class="divider"></view>
+      <t-link theme="primary" content="手机号注册" hover />
+    </view>
+  </view>
+</view>

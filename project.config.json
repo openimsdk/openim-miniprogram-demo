@@ -42,8 +42,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wxedbbabbca9442017",
-  "projectname": "miniprogram-92",
+  "projectname": "openim-miniprogram-demo",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
